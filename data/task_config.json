@@ -1,0 +1,14 @@
+{
+  "d_in": 16,
+  "n_train": 96,
+  "n_val": 128,
+  "n_test": 512,
+  "noise": 0.02,
+  "scale_lin": 0.2,
+  "scale_sin": 0.6,
+  "scale_quad": 0.0,
+  "freq": 2.0,
+  "bias_scale": 0.05,
+  "base": 0.5,
+  "teacher_seed": 0
+}

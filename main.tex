@@ -1,0 +1,39 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{longtable}
+\usepackage{hyperref}
+\title{Enumerated Shortest-Path Benchmark}
+\author{}
+\date{}
+\begin{document}
+\maketitle
+
+\section*{Selected hyperparameters}
+\input{tables/selected_hyperparameters.tex}
+
+\section*{Five-seed summary}
+\input{tables/five_seed_summary.tex}
+
+\section*{Figures}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.72\textwidth]{figures/path_regret_bar.png}
+    \caption{Five-seed path regret comparison.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.72\textwidth]{figures/decision_quality_bars.png}
+    \caption{Path accuracy and edge overlap.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.72\textwidth]{figures/val_regret_vs_epoch.png}
+    \caption{Validation path-regret curves.}
+\end{figure}
+
+\end{document}
