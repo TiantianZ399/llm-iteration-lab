@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+﻿#!/usr/bin/env python3
 """Run a structured DFL benchmark on an enumerated shortest-path toy task.
 
 Methods:
@@ -355,10 +355,6 @@ def tune_method(
 
 # -----------------------------------------------------------------------------
 # Tables / plots / summaries
-# -----------------------------------------------------------------------------
-def fmt_pm(mean: float, std: float, digits: int = 4) -> str:
-    return f"{mean:.{digits}f} ± {std:.{digits}f}"
-
 
 def fmt_pm(mean: float, std: float, digits: int = 4) -> str:
     return f"{mean:.{digits}f} +/- {std:.{digits}f}"
@@ -733,3 +729,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
