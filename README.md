@@ -1,5 +1,8 @@
 # LLM-Iteration-Lab
 
+easy link roadmap:
+    self launched learning series : https://github.com/TiantianZ399/columbia-quant-llm.github.io, can see research_basics there
+
 This repository is an early-stage open-source research-engineering project for automated development loops around LLM systems. It is intended as a modular scaffold for evaluation, diagnosis, refinement, and iteration workflows for LLM-based systems, starting from a narrow first vertical rather than a broad claim of general autonomy.
 
 ## Project Status
